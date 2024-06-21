@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+#result-text {
+    color: antiquewhite;
+}
+#guessed-nums {
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    outline: 0;
+    margin-bottom: 1.2rem;
+    border: 1px solid green;
+    font-size: 26px;
+}
+
+input {
+    padding-left: 15px;
+}
+
+#guessed-nums::placeholder {
+    color: #044634;
+    margin-left: 20px;
+}
+
+#align-box {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    border-radius: 15%;
+}
+
+#inputbox {
+    height: 200px;
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    border-radius: 12%;
+}
+
+#click {
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 20%;
+    outline: 0;
+    border: 0;
+    border: 1px solid greenyellow;
+    text-shadow: 5px 5px 10px rgba(2, 137, 100, 0.4);
+    color: #044634;
+}
+
+h2 {
+    text-align: center;
+}
